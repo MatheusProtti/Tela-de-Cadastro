@@ -1,0 +1,61 @@
+body {
+    background-image: linear-gradient(45deg, purple, orange);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 300px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 50px;
+}   
+
+.foto {
+    height: 80px;
+    width: 80px;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    padding: 20px;
+    border: none;
+    outline: none;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+.remember a {
+    float: right;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.remember a:hover {
+    color: purple;
+}
+
+.login {
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    padding: 15px;
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 40px;
+    background-color: orangered;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: tomato;
+}
